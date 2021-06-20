@@ -5,7 +5,4 @@ Logs/*
 Packages/*
 Temp/*
 obj/*
-Assets/Data/Dialog/*
 *.csproj
-*.nodemap
-*.nodemap.meta
