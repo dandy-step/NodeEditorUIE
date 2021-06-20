@@ -26,7 +26,7 @@ A custom node-based graphical editor for Unity. Built for our needs, something v
 * CTRL + Mouse Wheel to zoom in
 * DELETE key while dragging link from vert to remove it
 
-Included in Assets/Data/Nodemaps/ is a demo file, which you can open from the editor.
+**Included in Assets/Data/Nodemaps/ is a demo file**, which you can open from the editor.
 
 ### Hooking up an editor:
 This demo features a version of another one of our projects, [DialogEditorUIE](https://github.com/dandy-step/DialogEditorUIE), to demonstrate how to hook up your custom editors to this tool. Create and double click on a DialogNode to open up an instance of the dialog editor and edit your data. NodeEditorUIE will generate a preview of your data the next time it gets focused on. When done editing your data, close the dialog editor, and the node will store your data. If you wish to reload your data, just double click the node again, and a new instance of the editor will open with your previous data, ready for you to continue to edit. See DialogNode.cs and DialogEditorUIE.cs for instructions on how to replicate this feature set for your own tools.
