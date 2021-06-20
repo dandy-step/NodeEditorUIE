@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 4099746603
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b67216845b94e7f4d66b48cc01996af1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bc3fc80dc8eb9fc7d380727af8c78dc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3966a66dc48fd8944bce52552cf8801b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ca8aaa1e9eddc3e48810b5a74a6929d7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Characters/Alex.prefab
+- Assets/Prefabs/Characters/Beth.prefab
+Dependencies: []

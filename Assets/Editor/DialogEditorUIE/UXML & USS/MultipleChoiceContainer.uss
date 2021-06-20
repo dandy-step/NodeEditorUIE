@@ -1,0 +1,51 @@
+.MainContainer {
+	margin: 10px 0px 10px 0px;
+	height: auto;
+	flex-direction: column;
+	flex-grow: 1;
+	background-color: #666666;
+}
+
+.QuestionContainer {
+	flex-grow: 1;
+	justify-content: center;
+	align-self: center;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.QuestionContainer TextField #dialog_text_container {
+	align-items: center;
+	flex-grow: 1;
+	width: auto;
+}
+
+.QuestionContainer TextField #dialog_text * {
+	font-size: 15px;
+	-unity-font-style: bold;
+}
+
+.ChoiceContainer {
+	padding: 5px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.DialogChunkContainer {
+	flex-direction: row;
+}
+
+.DialogChunkContainer > DialogChunk {
+	margin: 0px 2px 0px 2px;
+	background-color: #555555;
+	flex-grow: 1;
+	width: auto;
+	height: auto;
+}
+
+#header_text {
+	align-self: center;
+	font-size: 13px;
+	-unity-font-style: bold;
+}

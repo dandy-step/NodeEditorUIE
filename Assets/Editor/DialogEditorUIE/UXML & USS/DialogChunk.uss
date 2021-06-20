@@ -1,0 +1,54 @@
+.Minimized > * {
+	margin: 0px;
+	padding: 0px;
+	min-width: 20px;
+	max-width: 20px;
+	flex-grow: 1;
+}
+
+.Minimized > TemplateContainer {
+	flex-basis: 0;
+	flex-grow: 0;
+	height: auto;
+	flex-grow: 1;
+}
+
+.Minimized #main_chunk_container {
+	background-image: none;
+}
+
+.Minimized #dialog_container {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+.Minimized #chunk_label_box {
+	background-color: #FF0000;
+	width: 16px;
+	height: auto;
+	flex-grow: 1;
+}
+
+.Minimized #chunk_text_label {
+	visibility: hidden;
+}
+
+.Minimized .ChunkGraphic {
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+#main_chunk_container {
+	flex-grow: 1;
+}
+
+#chunk_label_box {
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	flex-direction: row;
+	background-color: #0000AA;
+}

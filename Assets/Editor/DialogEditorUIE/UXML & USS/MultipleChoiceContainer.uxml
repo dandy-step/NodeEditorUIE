@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:dialog="DialogTool">
+
+  <engine:VisualElement class="MainContainer" name="main_container">
+    <engine:TextElement name="header_text" text="Multiple Choice Question:"/>
+    <engine:VisualElement class="QuestionContainer" name="question_container">
+      <engine:TextField name= "question_text" text="Do you think we should go for it?"/>
+    </engine:VisualElement>
+
+    <engine:Button text="Add Choice" name="add_choice_button"/>
+    <engine:VisualElement class="ChoiceContainer" name="choice_container"/>
+  </engine:VisualElement>
+  
+</engine:UXML>

@@ -1,0 +1,23 @@
+#choice_entry {
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+#entry_text_box {
+	width: auto;
+}
+
+#entry_text {
+	font-size: 14px;
+	-unity-font-style: bold;
+	width: auto;
+	flex-grow: 0;
+}
+
+#drag_graphic {
+	margin: 0px 0px 0px 8px;
+	align-self: center;
+	width: 12px;
+	height: 12px;
+	-unity-background-scale-mode: scale-to-fit;
+}

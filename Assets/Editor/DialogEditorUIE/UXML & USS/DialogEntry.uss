@@ -1,0 +1,176 @@
+.EnvironmentalStyle #dialog_entry_container {
+	margin-right: 20px;
+	background-color: #FFFFFF;
+	flex-direction: row-reverse;
+}
+
+.EnvironmentalStyle #dialog_text_container {
+	flex-direction: row-reverse;
+}
+
+.EnvironmentalStyle #dialog_text > * {
+	-unity-text-align: upper-right;
+	-unity-font-style: italic;
+}
+
+.EnvironmentalStyle #dialog_portrait_container {
+	min-width: auto;
+}
+
+.EnvironmentalStyle #name_button {
+	min-width: 20px;
+	min-height: 20px;
+}
+
+.EnvironmentalStyle #animation_button {
+	display: none;
+}
+
+.HorizontalContainer {
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.VerticalContainer {
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+#dialog_entry_container {
+	padding: 2px;
+}
+
+#dialog_portrait_container {
+	max-width: 90px;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	background-color: rgba(0.5, 0.5,0.5,0.1);
+	padding: 5px;
+	opacity: 1;
+	align-items: stretch;
+}
+
+#portrait {
+	flex-basis: 50px;
+	width: 50px;
+	flex-grow: 8;
+	-unity-background-scale-mode: scale-to-fit;
+}
+
+#dialog_portrait_container > * {
+	overflow: hidden;
+}
+
+#name_button {
+	-unity-text-align: middle-center;
+	-unity-font-style: bold;
+	opacity: 2;
+	flex-direction: row;
+}
+
+#dialog_text_container {
+	flex-grow: 8;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	min-width: 125px;
+	background-color: #DDDDDD;
+	opacity: 0.75;
+	padding: 5px;
+	color: #DDDDDD;
+}
+
+#dialog_text {
+	height: auto;
+	min-width: 90px;
+	font-size: 13px;
+	color: #000000;
+	-unity-text-align: upper-left;
+	white-space: normal;
+	background-color: rgba(255, 255, 255, 0);
+	opacity: 1;
+}
+
+#dialog_text > * {
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0);
+	border-width: 0;
+	background-image: none;
+	-unity-font: url("/Assets/Fonts/Dialog.ttf");
+}
+
+#main_speaker_icon {
+	width: 16px;
+	height: 16px;
+}
+
+#animation_button {
+	background-color: #000000;
+	-unity-font-style: bold;
+	opacity: 1.75;
+	color: #FFFFFF;
+	flex-direction: row;
+}
+
+#animation_button_bad {
+	background-color: #FF0000;
+	-unity-font-style: bold;
+	color: #FFFFFF;
+	opacity: 2;
+}
+
+#animation_scroll {
+	flex-wrap: nowrap;
+	width: 90px;
+}
+
+#animation_clip_badge {
+	background-color: #FFFF00;
+	font-size: 12px;
+	opacity: 2;
+	color: #000000;
+	padding: 1px;
+}
+
+#animation_clip_badge_animclip {
+	background-color: #008822;
+	font-size: 12px;
+	opacity: 2;
+	color: #FFFFFF;
+	padding: 1px;
+}
+
+#animation_clip_badge_idle {
+	background-color: #444444;
+	padding: 1px;
+	opacity: 1.85;
+}
+
+#animation_clip_badge_disabled {
+	position: absolute;
+	display: none;
+}
+
+.HoverStyle > * {
+	padding-top: 7px;
+	background-color: #20B2AA;
+}
+
+.NodePreviewStyle > * > * > #animation_button {
+	display: none;
+}
+
+.NodePreviewStyle ** #animation_clip_badge {
+	display: none;
+}
+
+.NodePreviewStyle ** #dialogText {
+	flex-direction: row;
+	max-height: 30px;
+}
+
+.NodePreviewStyle {
+	background-color: #FF0000;
+}

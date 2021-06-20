@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+<engine:VisualElement class="HorizontalContainer CheckFlagNode" style="flex-direction: row">
+    <engine:TextElement text="Check Flag: "/>
+    <editor:EnumField name="flagEnumField"/>
+</engine:VisualElement>
+
+<engine:VisualElement name="labelVertContainer" style="flex-direction: row"/>
+    
+</engine:UXML>

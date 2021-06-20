@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements">
+
+  <engine:VisualElement name="main_chunk_container">
+    
+    <engine:VisualElement name="chunk_label_box">
+      <engine:Label text="SHORT ID CHUNK INFO HERE" name="chunk_text_label"/>
+    </engine:VisualElement>
+    
+    <engine:ScrollView class="DialogContainer" name="dialog_container"/>
+  </engine:VisualElement>
+  
+</engine:UXML>

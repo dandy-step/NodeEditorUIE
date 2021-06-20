@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3966a66dc48fd8944bce52552cf8801b, type: 3}
+  m_Name: AlexData
+  m_EditorClassIdentifier: 
+  prefabPath: Assets/Prefabs/Characters/Alex.prefab
+  characterName: Alex
+  characterLongName: Alexander Locke
+  characterDescription: The main character of the example built for the tool. Not
+    much is known about him, other than the fact that he tends to be yellow
+  editorColor: {r: 0.9150943, g: 0.7683399, b: 0.26330543, a: 1}
+  editorAdvance: 0

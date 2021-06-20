@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:dlg="DialogTool">
+
+  <engine:VisualElement name="choice_entry">
+    
+    <engine:Box name="entry_text_box">
+      <engine:TextField name="entry_text"/>
+    </engine:Box>
+    
+  </engine:VisualElement>
+  
+</engine:UXML>

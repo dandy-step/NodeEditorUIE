@@ -1,0 +1,29 @@
+﻿TemplateContainer {
+	border-width: 1px;
+	border-color: #111111;
+}
+
+VisualElement {
+	flex-direction: row;
+	min-height: 20px;
+}
+
+#speakerName {
+	min-width: 70px;
+	color: #000000;
+	-unity-font-style: bold;
+	-unity-text-align: middle-center;
+	padding-right: 3px;
+	border-width: 2px;
+	border-color: #333333;
+}
+
+#dialog {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #000000;
+	white-space: nowrap;
+	overflow: hidden;
+	-unity-text-align: middle-left;
+	font-size: 11px;
+}

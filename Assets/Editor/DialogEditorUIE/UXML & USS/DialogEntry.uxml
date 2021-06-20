@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:dlg="DialogTool"
+
+xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+  <engine:VisualElement class="HorizontalContainer" name="dialog_entry_container">
+    
+    <engine:VisualElement class="VerticalContainer" name="main_speaker_container">
+      <engine:Image name="main_speaker_icon"/>
+    </engine:VisualElement>
+    
+    <engine:VisualElement class="VerticalContainer" name="dialog_portrait_container">
+      <dlg:ScrollingLabel name="name_button" text="John Doe"/>
+      <engine:Button name="animation_button" text="Animation"/>
+    </engine:VisualElement>
+
+    <engine:VisualElement class="VerticalContainer" name="dialog_text_container">
+    <engine:TextElement name="animation_clip_badge" text="Play: animation"/>
+      <engine:TextField name="dialog_text" multiline="true" text="Dialog text goes here. Dialog text goes here. Dialog text goes here. Dialog text goes here. Dialog text goes here. Dialog text goes here. Dialog text goes here. Dialog text goes here." />
+    </engine:VisualElement>
+    
+  </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,147 @@
+﻿.GenericNode {
+	padding: 5px;
+	background-color: #555555;
+	border-width: 3px;
+	border-color: #333333;
+	border-radius: 8px;
+}
+
+.VertexContainer {
+	min-height: 20px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 15px 0px 15px;
+}
+
+.DialogNode > VisualElement {
+	background-color: #999900;
+	border-color: #777700;
+}
+
+.LabeledVert {
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.LabeledVert > VisualElement > TextElement {
+	background-color: #000000;
+	opacity: 0.65;
+	border-width: 2px;
+	border-color: #000000;
+	border-radius: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	flex-direction: row;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.CheckFlagNode > VisualElement {
+	background-color: grey;
+	border-radius: 50px;
+}
+
+.CheckFlagNode > TextElement {
+	color: black;
+	-unity-font-style: bold;
+}
+
+#labelVertContainer {
+	padding-top: 7px;
+	align-self: center;
+}
+
+#labelVertContainer > #ifSet {
+	background-color: green;
+	margin-right: 20px;
+	-unity-font-style: bold;
+}
+
+#labelVertContainer > #ifNotSet {
+	background-color: red;
+	-unity-font-style: bold;
+}
+
+.GetValueNode > VisualElement {
+	flex-direction: column;
+	align-self: center;
+	border-width: 5px;
+	border-radius: 0px 20px 0px 20px;
+	background-color: orange;
+}
+
+.GetValueNode > VisualElement {
+	flex-direction: column;
+	border-width: 3px;
+	border-radius: 0px 20px 0px 20px;
+	background-color: orange;
+}
+
+.GetValueNode * .VerticalContainer {
+	align-items: center;
+}
+
+.GetValueNode * TextElement {
+	color: black;
+	-unity-font-style: bold;
+}
+
+.DirectInputValueNode > VisualElement {
+	background-color: #008888;
+	border-width: 3px;
+	border-radius: 20px 0px 20px 0px;
+}
+
+.DirectInputValueNode * .VerticalContainer {
+	align-items: center;
+}
+
+.SetValueNode > VisualElement {
+	background-color: #003377;
+}
+
+.SetValueNode * .VerticalContainer {
+	align-items: center;
+}
+
+.SetValueNode * Label {
+	-unity-font-style: bold;
+}
+
+.EntryNode > VisualElement {
+	background-color: green;
+	border-radius: 0;
+}
+
+.EntryNode * Label {
+	font-size: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	-unity-font-style: bold;
+	color: black;
+}
+
+.BoolLogicNode * > VisualElement {
+	height: 30px;
+	justify-content: center;
+	background-color: grey;
+}
+
+.BoolLogicNode * Label {
+	-unity-font-style: bold;
+	padding: 15px;
+	color: black;
+}
+
+.BoolLogicNode * #trueContainer {
+	background-color: green;
+}
+
+.BoolLogicNode * #falseContainer {
+	background-color: red;
+}
